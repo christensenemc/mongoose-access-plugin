@@ -1,0 +1,16 @@
+{
+  "name": "mongoose-access-plugin",
+  "version": "0.0.1",
+  "description": "A simple mongoose plugin to help streamline access control",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongoose",
+    "access",
+    "access-control"
+  ],
+  "author": "Erik Christensen",
+  "license": "MIT"
+}
