@@ -1,6 +1,6 @@
 ## Usage
 
-```
+```javascript
 var access = require('mongoose-access-plugin');
 
 Model.plugin(access,function(operation,user){
