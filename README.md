@@ -14,11 +14,11 @@ Model.accessibleBy(req.user).find({priority:{$gte:3}}).exec(function(err,models)
   //DO SOMETHING WITH YOUR MODELS HERE
 });
 
-Model.accessibleBy(req.user).findToUpdate(req.param.modelId).exec(function(err,model){
+Model.accessibleBy(req.user).findOneToUpdate(req.param.modelId).exec(function(err,model){
   //UPDATE YOUR MODEL
 });
 
-Model.accessibleBy(req.user).findToDestroy(req.param.modelId).exec(function(err,model){
+Model.accessibleBy(req.user).findOneToDestroy(req.param.modelId).exec(function(err,model){
   //DESTROY YOUR MODEL
 });
 ```
