@@ -16,7 +16,7 @@ module.exports = function(schema,acessible){
 				return Model.find({$and:[query,accessible('update',user)]});
 			},
 			findOneToDestroy:function(query){
-				return Model.find({$and:[query,accessible('update',user)]});
+				return Model.find({$and:[query,accessible('destroy',user)]});
 			},
 			findOneToUpdate:function(id){
 				return Model.findOne({$and:[{_id:id},accessible('update',user)]});
